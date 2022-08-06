@@ -8,7 +8,8 @@ using Data.SitePropriaArte.Generics;
 
 namespace Data.SitePropriaArte.Persistence
 {
-    class Categoria
+    class CategoriaData
     {
+        public List<QuadroDto>
     }
 }

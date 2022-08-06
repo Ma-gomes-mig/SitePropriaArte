@@ -22,7 +22,7 @@ namespace Data.SitePropriaArte.Mapping
             Id(u => u.IdUsuario, "IdUsuario").GeneratedBy.Identity();
             //demais atributos...
             Map(u => u.Nome, "Nome").Length(50).Not.Nullable();
-            Map(u => u.Email, "Login").Length(30).Not.Nullable().Unique();
+            Map(u => u.Email, "Email").Length(30).Not.Nullable().Unique();
             Map(u => u.Senha, "Senha").Length(40).Not.Nullable();
             Map(u => u.DataCadastro, "DataCadastro").Not.Nullable();
         }

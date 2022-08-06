@@ -87,6 +87,8 @@ C:\Users\win10\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\We
 C:\Users\win10\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.CopyComplete
 C:\Users\win10\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.dll
 C:\Users\win10\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.pdb
+C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.AssemblyReference.cache
+C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.CoreCompileInputs.cache
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\Web.SitePropriaArte.dll.config
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\Web.SitePropriaArte.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\Web.SitePropriaArte.pdb
@@ -171,14 +173,12 @@ C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\Sy
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\System.Web.Helpers.xml
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\System.Web.Mvc.xml
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.AssemblyReference.cache
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.CoreCompileInputs.cache
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.CopyComplete
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.dll
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.pdb
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\pt-br\System.Web.Razor.resources.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\pt-br\System.Web.Webpages.resources.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\pt-br\System.Web.Webpages.Razor.resources.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\pt-br\System.Web.Helpers.resources.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.csproj.CopyComplete
+C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.dll
+C:\Users\10490954723\source\repos\Web.SitePropriaArte\Web.SitePropriaArte\obj\Debug\Web.SitePropriaArte.pdb

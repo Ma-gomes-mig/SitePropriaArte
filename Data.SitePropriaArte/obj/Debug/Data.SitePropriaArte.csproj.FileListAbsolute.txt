@@ -33,8 +33,8 @@ C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\bin\D
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\bin\Debug\NHibernate.xml
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\bin\Debug\Remotion.Linq.xml
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\bin\Debug\Remotion.Linq.EagerFetching.xml
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\obj\Debug\Data.SitePropriaArte.csproj.AssemblyReference.cache
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\obj\Debug\Data.SitePropriaArte.csproj.CoreCompileInputs.cache
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\obj\Debug\Data.SitePropriaArte.csproj.CopyComplete
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\obj\Debug\Data.SitePropriaArte.dll
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\obj\Debug\Data.SitePropriaArte.pdb
+C:\Users\10490954723\source\repos\Web.SitePropriaArte\Data.SitePropriaArte\obj\Debug\Data.SitePropriaArte.csproj.AssemblyReference.cache

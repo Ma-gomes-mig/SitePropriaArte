@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using NHibernate;
 using NHibernate.Linq;
+using Data.SitePropriaArte.Entidades;
 using Data.SitePropriaArte.Entities;
 using Data.SitePropriaArte.Util;
 using Data.SitePropriaArte.Generics;
@@ -17,25 +18,25 @@ namespace Data.SitePropriaArte.Persistence
     /// </summary>
     public class UsuarioData : GenericData<Usuario>
     {
-        public bool HasLogin(string Login)
+        public bool HasLogin(string Email)
         {
             using (ISession s = HibernateUtil.GetSessionFactory().OpenSession())
             {
                 //SQL -> select count(*) from Usuario where Login = ?
                 var query = from u in s.Query<Usuario>()
-                            where u.Email.Equals(Login)
+                            where u.Email.Equals(Email)
                             select u;
                 //retornar a quantidade obtida...
                 return query.Count() > 0;
             }
         }
-        public Usuario Authenticate(string Login, string Senha)
+        public Usuario Authenticate(string Email, string Senha)
         {
             using (ISession s = HibernateUtil.GetSessionFactory().OpenSession())
             {
                 //SQL -> select * from Usuario where Login=? and Senha=?
                 var query = from u in s.Query<Usuario>()
-                            where u.Email.Equals(Login)
+                            where u.Email.Equals(Email)
                             && u.Senha.Equals(Senha)
                             select u;
                 //retornar o primeiro registro encontrado

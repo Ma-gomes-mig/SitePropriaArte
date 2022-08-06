@@ -74,7 +74,7 @@ namespace Web.SitePropriaArte.Controllers
                 try
                 {
                     UsuarioData d = new UsuarioData(); //persistencia...
-                    Usuario u = d.Authenticate(model.Login,
+                    Usuario u = d.Authenticate(model.Email,
                    Criptografia.GetMD5Hash(model.Senha));
                     if (u != null) //usuario foi encontrado....
                     {

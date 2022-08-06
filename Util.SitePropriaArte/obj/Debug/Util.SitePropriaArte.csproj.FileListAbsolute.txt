@@ -33,7 +33,6 @@ C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\bin\D
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\bin\Debug\NHibernate.xml
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\bin\Debug\Remotion.Linq.xml
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\bin\Debug\Remotion.Linq.EagerFetching.xml
-C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\obj\Debug\Util.SitePropriaArte.csproj.AssemblyReference.cache
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\obj\Debug\Util.SitePropriaArte.csproj.CoreCompileInputs.cache
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\obj\Debug\Util.SitePropriaArte.csproj.CopyComplete
 C:\Users\10490954723\source\repos\Web.SitePropriaArte\Util.SitePropriaArte\obj\Debug\Util.SitePropriaArte.dll

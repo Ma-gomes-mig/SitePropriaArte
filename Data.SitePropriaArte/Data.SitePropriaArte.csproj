@@ -63,6 +63,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dto\QuadroDto.cs" />
     <Compile Include="Entidades\Categoria.cs" />
     <Compile Include="Entidades\Quadro.cs" />
     <Compile Include="Entidades\Usuario.cs" />

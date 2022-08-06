@@ -9,9 +9,9 @@ namespace Web.SitePropriaArte.Models
 {
     public class UsuarioModelLogin
     {
-        [Required(ErrorMessage = "Por favor, informe o login de acesso.")]
-        [Display(Name = "Informe seu Login:")] //label
-        public string Login { get; set; } //campo
+        [Required(ErrorMessage = "Por favor, informe o Email de acesso.")]
+        [Display(Name = "Informe seu Email:")] //label
+        public string Email { get; set; } //campo
 
         [Required(ErrorMessage = "Por favor, informe a senha de acesso.")]
         [Display(Name = "Informe sua Senha:")] //label
@@ -27,10 +27,10 @@ namespace Web.SitePropriaArte.Models
         public string Nome { get; set; } //campo
 
 
-        [Required(ErrorMessage = "Por favor, informe o login do usuario.")]
+        [Required(ErrorMessage = "Por favor, informe o email do usuario.")]
         [RegularExpression(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$",
-        ErrorMessage = "Erro. Login inválido.")]
-        [Display(Name = "Login de Acesso:")] //label
+        ErrorMessage = "Erro. Email inválido.")]
+        [Display(Name = "Email de Acesso:")] //label
         [LoginDisponivel(ErrorMessage = "Erro. Este login encontra-se indisponivel.Tente outro.")]
         public string Email { get; set; } //campo
 
