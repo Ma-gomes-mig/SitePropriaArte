@@ -10,6 +10,6 @@ namespace Data.SitePropriaArte.Persistence
 {
     class CategoriaData
     {
-        public List<QuadroDto>
+        //public List<QuadroDto>
     }
 }

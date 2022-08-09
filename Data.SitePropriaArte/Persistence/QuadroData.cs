@@ -27,7 +27,7 @@ namespace Data.SitePropriaArte.Persistence
                             select q;
 
                 //retornar a lista de quadro ...
-                return query.List<Quadro>;
+                return query.ToList<Quadro>();
             }
         }
     }

@@ -7,6 +7,12 @@ using Web.SitePropriaArte.Validators;
 
 namespace Web.SitePropriaArte.Models
 {
+    public class QuadroModelGaleria
+    {
+        public QuadroModelCadastro quadroCadastro { get; set; }
+        //public List<sss> Exibir { get; set; }
+    }
+
     public class QuadroModelCadastro
     {
         [Required(ErrorMessage = "Por favor, informe o nome do quadro.")]
@@ -20,5 +26,7 @@ namespace Web.SitePropriaArte.Models
         [Required(ErrorMessage = "Por favor, informe a data de que o quadro foi pintado. ")]
         [Display(Name = "Informe a data que o quadro foi pintado: ")]
         public DateTime DataCriacao { get; set; }
+
+
     }
 }

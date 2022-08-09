@@ -1,4 +1,5 @@
-﻿@{
+﻿@model Web.SitePropriaArte.Models.QuadroModelGaleria
+@{
     Layout = "~/Views/Base/_Layout.cshtml";
 }
 <!DOCTYPE html>
@@ -9,12 +10,36 @@
     <title>EspacoGaleria</title>
 </head>
 <body>
+
+    <h3>Cadastro de Quadros</h3>
+    <hr />
+
+    @using (Html.BeginForm("CadastrarQuadro", "Quadro", FormMethod.Post))
+    {
+        <div>
+            @Html.ValidationSummary()
+        </div>
+        @Html.LabelFor(q => q.quadroCadastro.Nome) <br />
+        @Html.TextBoxFor(q => q.quadroCadastro.Nome)
+        <br /><br />
+        @Html.LabelFor(q => q.quadroCadastro.Descricao) <br />
+        @Html.TextBoxFor(q => q.quadroCadastro.Descricao)
+        <br /><br />
+        @Html.LabelFor(q => q.quadroCadastro.DataCriacao) <br />
+        @Html.PasswordFor(q => q.quadroCadastro.DataCriacao)
+        <br /><br />
+        <input type="submit" value="Cadastrar Quadro" />
+        <p>
+            @ViewBag.Mensagem
+        </p>
+    }
+
     <div>
-        
+
     </div>
 
-    @Html.Partial("_dadosUsuario")
-
+    <h3>Exibição de Quadros</h3>
+    <hr />
 
 </body>
 </html>

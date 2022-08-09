@@ -16,6 +16,7 @@ namespace Web.SitePropriaArte.Controllers
         //GET: Usuario/EspacoGaleria
         public ActionResult EspacoGaleria()
         {
+            QuadroModelGaleria ListarQuadros =new QuadroModelGaleria();
             return View(ListarQuadros); //page_load
         }
 
