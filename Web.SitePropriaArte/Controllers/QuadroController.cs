@@ -16,7 +16,8 @@ namespace Web.SitePropriaArte.Controllers
         //GET: Usuario/EspacoGaleria
         public ActionResult EspacoGaleria()
         {
-            QuadroModelGaleria ListarQuadros =new QuadroModelGaleria();
+            QuadroModelGaleria ListarQuadros = new QuadroModelGaleria();
+                        
             return View(ListarQuadros); //page_load
         }
 
@@ -24,12 +25,28 @@ namespace Web.SitePropriaArte.Controllers
         [HttpPost]
         public ActionResult CadastrarQuadro(QuadroModelCadastro model)
         {
+
+            //var imageTypes = new string[]{
+            //        "image/gif",
+            //        "image/jpeg",
+            //        "image/pjpeg",
+            //        "image/png"
+            //    };
+            //if (model.Imagem == null || model.Imagem.Length == 0)
+            //{
+            //    ModelState.AddModelError("ImageUpload", "Este campo é obrigatório");
+            //}
+            //else if (!imageTypes.Contains(model.Imagem))
+            //{
+            //    ModelState.AddModelError("ImageUpload", "Escolha uma imagem GIF, JPG ou PNG.");
+            //}
+
             if (ModelState.IsValid)
             {
                 try
                 {
                     Quadro q = new Quadro() //entidade
-                    {
+                    {                        
                         Nome = model.Nome,
                         Descricao = model.Descricao,
                         DataCriacao = model.DataCriacao

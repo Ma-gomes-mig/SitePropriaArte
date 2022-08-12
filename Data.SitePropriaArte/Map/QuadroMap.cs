@@ -21,6 +21,7 @@ namespace Data.SitePropriaArte.Mapping
             Id(q => q.IdQuadro, "IdQuadro").GeneratedBy.Identity();
 
             //demais propriedades...
+            Map(q => q.Imagem, "Imagem").Length(100).Not.Nullable();
             Map(q => q.Nome, "Nome").Length(50).Not.Nullable();
             Map(q => q.Descricao, "Descricao").Not.Nullable();
             Map(q => q.DataCriacao, "DataCriacao").Not.Nullable();

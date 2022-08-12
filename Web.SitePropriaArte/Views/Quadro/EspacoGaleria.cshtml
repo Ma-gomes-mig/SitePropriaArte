@@ -19,6 +19,11 @@
         <div>
             @Html.ValidationSummary()
         </div>
+
+        @Html.LabelFor(q => q.quadroCadastro.Imagem, new { @class = "control-label col-md-2" })
+        @Html.TextBoxFor(q => q.quadroCadastro.Imagem, new { type = "file", @class = "form-control" })
+        @Html.ValidationMessageFor(q => q.quadroCadastro.Imagem, "", new { @class = "text-danger" })
+        <br /><br />
         @Html.LabelFor(q => q.quadroCadastro.Nome) <br />
         @Html.TextBoxFor(q => q.quadroCadastro.Nome)
         <br /><br />
@@ -26,7 +31,7 @@
         @Html.TextBoxFor(q => q.quadroCadastro.Descricao)
         <br /><br />
         @Html.LabelFor(q => q.quadroCadastro.DataCriacao) <br />
-        @Html.PasswordFor(q => q.quadroCadastro.DataCriacao)
+        @Html.TextBoxFor(q => q.quadroCadastro.DataCriacao)
         <br /><br />
         <input type="submit" value="Cadastrar Quadro" />
         <p>
@@ -37,9 +42,18 @@
     <div>
 
     </div>
+   
 
     <h3>Exibição de Quadros</h3>
     <hr />
+    <table class="table">
+        <tr>
+            <th>Quadro</th>
+            <th>Nome</th>
+            <th>Descrição</th>
+            <th>Data de Criação</th>            
+        </tr>
 
+    </table>
 </body>
 </html>

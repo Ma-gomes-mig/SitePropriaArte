@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 namespace Data.SitePropriaArte.Entidades
 {
     public class Quadro
-    {
+    {        
         public virtual int IdQuadro { get; set; }
+        public virtual string Imagem { get; set; }
         public virtual string Nome { get; set; }
         public virtual string Descricao { get; set; }
         public virtual DateTime DataCriacao { get; set; }
